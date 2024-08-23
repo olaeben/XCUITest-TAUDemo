@@ -3,10 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D8BB7872C6F9A1500667BEB /* TAUUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8BB7862C6F9A1500667BEB /* TAUUITests.swift */; };
+		3D8BB7922C6F9BD700667BEB /* TAUElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8BB7912C6F9BD700667BEB /* TAUElements.swift */; };
+		3D8BB7952C6F9C2F00667BEB /* TAUUIBaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8BB7942C6F9C2F00667BEB /* TAUUIBaseTest.swift */; };
+		3D8BB7972C6F9E7A00667BEB /* BDDTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8BB7962C6F9E7A00667BEB /* BDDTest.swift */; };
+		3D8BB79A2C6F9ECD00667BEB /* TAUStepsDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8BB7992C6F9ECD00667BEB /* TAUStepsDefinition.swift */; };
+		3D8BB79D2C6FA77E00667BEB /* EyesXCUI in Frameworks */ = {isa = PBXBuildFile; productRef = 3D8BB79C2C6FA77E00667BEB /* EyesXCUI */; };
+		3D8BB79F2C6FA7F400667BEB /* TAUEyesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8BB79E2C6FA7F400667BEB /* TAUEyesTest.swift */; };
 		9B5BC70E220F55C20047CFA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5BC70D220F55C20047CFA4 /* AppDelegate.swift */; };
 		9B5BC710220F55C20047CFA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5BC70F220F55C20047CFA4 /* ViewController.swift */; };
 		9B5BC713220F55C20047CFA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B5BC711220F55C20047CFA4 /* Main.storyboard */; };
@@ -16,6 +23,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		3D8BB78A2C6F9A1500667BEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B5BC702220F55C20047CFA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B5BC709220F55C20047CFA4;
+			remoteInfo = TAU;
+		};
 		9B5BC71F220F55D20047CFA4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9B5BC702220F55C20047CFA4 /* Project object */;
@@ -26,6 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D8BB7842C6F9A1500667BEB /* TAUUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TAUUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D8BB7862C6F9A1500667BEB /* TAUUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAUUITests.swift; sourceTree = "<group>"; };
+		3D8BB7912C6F9BD700667BEB /* TAUElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAUElements.swift; sourceTree = "<group>"; };
+		3D8BB7942C6F9C2F00667BEB /* TAUUIBaseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAUUIBaseTest.swift; sourceTree = "<group>"; };
+		3D8BB7962C6F9E7A00667BEB /* BDDTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDDTest.swift; sourceTree = "<group>"; };
+		3D8BB7992C6F9ECD00667BEB /* TAUStepsDefinition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAUStepsDefinition.swift; sourceTree = "<group>"; };
+		3D8BB79E2C6FA7F400667BEB /* TAUEyesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAUEyesTest.swift; sourceTree = "<group>"; };
 		9B5BC70A220F55C20047CFA4 /* TAU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TAU.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B5BC70D220F55C20047CFA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B5BC70F220F55C20047CFA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,10 +60,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3D8BB7812C6F9A1500667BEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9B5BC707220F55C20047CFA4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D8BB79D2C6FA77E00667BEB /* EyesXCUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,11 +85,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D8BB7852C6F9A1500667BEB /* TAUUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D8BB7982C6F9EA800667BEB /* StepsDefinition */,
+				3D8BB7932C6F9BFD00667BEB /* TAUUIBaseTest */,
+				3D8BB7902C6F9BB300667BEB /* XCUIElements */,
+				3D8BB78F2C6F9BA200667BEB /* Tests */,
+			);
+			path = TAUUITests;
+			sourceTree = "<group>";
+		};
+		3D8BB78F2C6F9BA200667BEB /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3D8BB7862C6F9A1500667BEB /* TAUUITests.swift */,
+				3D8BB7962C6F9E7A00667BEB /* BDDTest.swift */,
+				3D8BB79E2C6FA7F400667BEB /* TAUEyesTest.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		3D8BB7902C6F9BB300667BEB /* XCUIElements */ = {
+			isa = PBXGroup;
+			children = (
+				3D8BB7912C6F9BD700667BEB /* TAUElements.swift */,
+			);
+			path = XCUIElements;
+			sourceTree = "<group>";
+		};
+		3D8BB7932C6F9BFD00667BEB /* TAUUIBaseTest */ = {
+			isa = PBXGroup;
+			children = (
+				3D8BB7942C6F9C2F00667BEB /* TAUUIBaseTest.swift */,
+			);
+			path = TAUUIBaseTest;
+			sourceTree = "<group>";
+		};
+		3D8BB7982C6F9EA800667BEB /* StepsDefinition */ = {
+			isa = PBXGroup;
+			children = (
+				3D8BB7992C6F9ECD00667BEB /* TAUStepsDefinition.swift */,
+			);
+			path = StepsDefinition;
+			sourceTree = "<group>";
+		};
 		9B5BC701220F55C20047CFA4 = {
 			isa = PBXGroup;
 			children = (
 				9B5BC70C220F55C20047CFA4 /* TAU */,
 				9B5BC721220F55D20047CFA4 /* TAUTests */,
+				3D8BB7852C6F9A1500667BEB /* TAUUITests */,
 				9B5BC70B220F55C20047CFA4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +145,7 @@
 			children = (
 				9B5BC70A220F55C20047CFA4 /* TAU.app */,
 				9B5BC71E220F55D20047CFA4 /* TAUTests.xctest */,
+				3D8BB7842C6F9A1500667BEB /* TAUUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,6 +175,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		3D8BB7832C6F9A1500667BEB /* TAUUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D8BB78E2C6F9A1500667BEB /* Build configuration list for PBXNativeTarget "TAUUITests" */;
+			buildPhases = (
+				3D8BB7802C6F9A1500667BEB /* Sources */,
+				3D8BB7812C6F9A1500667BEB /* Frameworks */,
+				3D8BB7822C6F9A1500667BEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D8BB78B2C6F9A1500667BEB /* PBXTargetDependency */,
+			);
+			name = TAUUITests;
+			productName = TAUUITests;
+			productReference = 3D8BB7842C6F9A1500667BEB /* TAUUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		9B5BC709220F55C20047CFA4 /* TAU */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B5BC727220F55D20047CFA4 /* Build configuration list for PBXNativeTarget "TAU" */;
@@ -112,6 +206,9 @@
 			dependencies = (
 			);
 			name = TAU;
+			packageProductDependencies = (
+				3D8BB79C2C6FA77E00667BEB /* EyesXCUI */,
+			);
 			productName = TAU;
 			productReference = 9B5BC70A220F55C20047CFA4 /* TAU.app */;
 			productType = "com.apple.product-type.application";
@@ -140,10 +237,14 @@
 		9B5BC702220F55C20047CFA4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1010;
+				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Shashikant Jagtap";
 				TargetAttributes = {
+					3D8BB7832C6F9A1500667BEB = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 9B5BC709220F55C20047CFA4;
+					};
 					9B5BC709220F55C20047CFA4 = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -162,17 +263,28 @@
 				Base,
 			);
 			mainGroup = 9B5BC701220F55C20047CFA4;
+			packageReferences = (
+				3D8BB79B2C6FA77E00667BEB /* XCRemoteSwiftPackageReference "eyes-xcui-swift-package" */,
+			);
 			productRefGroup = 9B5BC70B220F55C20047CFA4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				9B5BC709220F55C20047CFA4 /* TAU */,
 				9B5BC71D220F55D20047CFA4 /* TAUTests */,
+				3D8BB7832C6F9A1500667BEB /* TAUUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3D8BB7822C6F9A1500667BEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9B5BC708220F55C20047CFA4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -193,6 +305,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3D8BB7802C6F9A1500667BEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D8BB7872C6F9A1500667BEB /* TAUUITests.swift in Sources */,
+				3D8BB79A2C6F9ECD00667BEB /* TAUStepsDefinition.swift in Sources */,
+				3D8BB79F2C6FA7F400667BEB /* TAUEyesTest.swift in Sources */,
+				3D8BB7922C6F9BD700667BEB /* TAUElements.swift in Sources */,
+				3D8BB7972C6F9E7A00667BEB /* BDDTest.swift in Sources */,
+				3D8BB7952C6F9C2F00667BEB /* TAUUIBaseTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9B5BC706220F55C20047CFA4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -213,6 +338,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		3D8BB78B2C6F9A1500667BEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B5BC709220F55C20047CFA4 /* TAU */;
+			targetProxy = 3D8BB78A2C6F9A1500667BEB /* PBXContainerItemProxy */;
+		};
 		9B5BC720220F55D20047CFA4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 9B5BC709220F55C20047CFA4 /* TAU */;
@@ -240,6 +370,53 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		3D8BB78C2C6F9A1500667BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.demoProject.TAUUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TAU;
+			};
+			name = Debug;
+		};
+		3D8BB78D2C6F9A1500667BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.demoProject.TAUUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TAU;
+			};
+			name = Release;
+		};
 		9B5BC725220F55D20047CFA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -441,6 +618,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3D8BB78E2C6F9A1500667BEB /* Build configuration list for PBXNativeTarget "TAUUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D8BB78C2C6F9A1500667BEB /* Debug */,
+				3D8BB78D2C6F9A1500667BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9B5BC705220F55C20047CFA4 /* Build configuration list for PBXProject "TAU" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -469,6 +655,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3D8BB79B2C6FA77E00667BEB /* XCRemoteSwiftPackageReference "eyes-xcui-swift-package" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/applitools/eyes-xcui-swift-package.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.5.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3D8BB79C2C6FA77E00667BEB /* EyesXCUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D8BB79B2C6FA77E00667BEB /* XCRemoteSwiftPackageReference "eyes-xcui-swift-package" */;
+			productName = EyesXCUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9B5BC702220F55C20047CFA4 /* Project object */;
 }

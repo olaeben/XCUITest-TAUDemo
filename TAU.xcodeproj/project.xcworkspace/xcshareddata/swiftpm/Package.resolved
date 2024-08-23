@@ -1,0 +1,15 @@
+{
+  "originHash" : "0b332b2590ddc7109dca8cb0faa520ab2bf5031f6c6b54d254a1ebee4e9e43d7",
+  "pins" : [
+    {
+      "identity" : "eyes-xcui-swift-package",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/applitools/eyes-xcui-swift-package.git",
+      "state" : {
+        "revision" : "99bee9a21de2a854735fa0e7c221ace99be4516d",
+        "version" : "9.5.4"
+      }
+    }
+  ],
+  "version" : 3
+}
